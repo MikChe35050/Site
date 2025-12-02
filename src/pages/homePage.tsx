@@ -57,7 +57,7 @@ export default function HomePage() {
           TextZoneAnimation: "./car_second.mp4",
           TextZoneAnimationType: "video",
         })}`}
-        top={400}
+        top={200}
         shift={500}
         
       />
