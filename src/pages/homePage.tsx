@@ -50,7 +50,7 @@ export default function HomePage() {
         photoUrl="./Golem.png"
         borderPhotoUrl="./Golem_alpha.png"
         href={`/second?${CreateUrl({
-          MainZoneBackground: "./car.mp4",
+          MainZoneBackground: "./master_full.mp4",
           MainZoneBackgroundType: "video",
           MainZoneName: "Truck",
           TextZoneDescription: "This is a fake taxi running to ur mom.",
