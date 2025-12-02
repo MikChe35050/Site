@@ -1,0 +1,46 @@
+.view {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+/* ...existing code... */
+
+/* reset and remove white gaps */
+:root,
+html,
+body,
+#root {
+  height: 100%;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #000; /* hides white stripes between full-bleed content */
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* avoid inline image/video baseline gaps */
+video {
+  display: block;
+  max-width: 100%;
+  background: #000;
+}
+
+/* make sections default to black background to cover transparent areas */
+section {
+  background-color: #000;
+}
+
+/* optional: make scroll bar less visually disruptive */
+::-webkit-scrollbar {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+}
+
+/* ...existing code... */
