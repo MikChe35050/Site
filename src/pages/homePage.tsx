@@ -31,7 +31,7 @@ export default function HomePage() {
         }}
       >
         Welcome to my character showcase! Click on a character to see more
-        details. (I am gay)
+        details. (stepbrother? I am stuck)
       </h1>
       <CharacterButton
         photoUrl="./1.png"
